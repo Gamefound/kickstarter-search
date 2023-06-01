@@ -66,7 +66,6 @@ async function parseInput(input) {
         return;
     }
     const queryParams = {
-        woe_id: 0
     };
 
     // FILTER OUT EMPTY FILTER VALUES
