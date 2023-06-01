@@ -149,7 +149,7 @@ async function parseInput(input) {
         queryParams.sort = DEFAULT_SORT_ORDER;
     }
 
-    if (filledInFilters.location) queryParams.woe_id = await processLocation(filledInFilters.location);
+    if (filledInFilters.location) queryParams.woe_id = filledInFilters.location;
 
     queryParams.page = 1;
 
